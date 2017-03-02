@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hm.flowlayout.MainActivity">
+
+    <com.hm.flowlayout.view.FlowLayoutViewGroup
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Java" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Android" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="iOS" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="PHP" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Gson" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="呵呵哒" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="日历吧" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="求呢我发顺丰的撒发生大" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="好吧好吧" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Java" />
+    </com.hm.flowlayout.view.FlowLayoutViewGroup>
+</RelativeLayout>
